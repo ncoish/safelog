@@ -2,6 +2,8 @@ use std::fmt::Debug;
 
 mod impls;
 
+// TODO: impl specialization would make this amazing
+// https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md
 pub trait Loggable: Sized + Debug {
     fn get_loggable(&self) -> Self;
 
