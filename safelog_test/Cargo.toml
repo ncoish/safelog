@@ -1,0 +1,8 @@
+[package]
+name = "safelog_test"
+version = "0.1.0"
+authors = ["Nick Coish <nick.coish@gmail.com>"]
+
+[dependencies]
+safelog = { path = "../safelog" }
+safelog_derive = { path = "../safelog_derive" }

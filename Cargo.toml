@@ -2,4 +2,5 @@
 members = [
     "safelog",
     "safelog_derive",
+    "safelog_test",
 ]
