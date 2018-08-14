@@ -3,4 +3,13 @@ name = "safelog_derive"
 version = "0.1.0"
 authors = ["Nick Coish <nick.coish@gmail.com>"]
 
+[lib]
+proc-macro = true
+
 [dependencies]
+#syn = { version="0.14", features="extra-traits" }
+quote = "0.6"
+
+[dependencies.syn]
+version = "0.14"
+features = ["extra-traits"]
