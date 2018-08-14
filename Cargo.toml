@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "safelog",
+    "safelog_derive",
+]
